@@ -27,14 +27,14 @@ from reco_utils.recommender.deeprec.deeprec_utils import (
 from reco_utils.dataset.sequential_reviews import data_preprocessing, strong_data_preprocessing
 from reco_utils.dataset.sequential_reviews import group_sequence
 from reco_utils.recommender.deeprec.models.sequential.sli_rec import SLI_RECModel
-from reco_utils.recommender.deeprec.models.sequential.dance import DANCEModel
+# from reco_utils.recommender.deeprec.models.sequential.dance import DANCEModel
 from reco_utils.recommender.deeprec.models.sequential.sasli_rec import SASLI_RECModel
 from reco_utils.recommender.deeprec.models.sequential.asvd import A2SVDModel
-from reco_utils.recommender.deeprec.models.sequential.caser import CaserModel
+# from reco_utils.recommender.deeprec.models.sequential.caser import CaserModel
 from reco_utils.recommender.deeprec.models.sequential.gru4rec import GRU4RecModel
-from reco_utils.recommender.deeprec.models.sequential.din import DINModel
-from reco_utils.recommender.deeprec.models.sequential.dien import DIENModel
-from reco_utils.recommender.deeprec.models.sequential.gcn import SURGEModel
+# from reco_utils.recommender.deeprec.models.sequential.din import DINModel
+# from reco_utils.recommender.deeprec.models.sequential.dien import DIENModel
+# from reco_utils.recommender.deeprec.models.sequential.gcn import SURGEModel
 
 from reco_utils.recommender.deeprec.io.sequential_iterator import (
     SequentialIterator,
