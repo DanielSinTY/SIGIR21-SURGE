@@ -939,7 +939,8 @@ def _download_reviews(name, dest_path):
     """
 
     url = (
-        "http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/"
+        # "http://snap.stanford.edu/data/amazon/productGraph/categoryFiles/"
+       "https://datarepo.eng.ucsd.edu/mcauley_group/data/amazon_v2/metaFiles2/"
         + name
         + ".gz"
     )

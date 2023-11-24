@@ -712,8 +712,10 @@ def main(argv):
 
     data_path = os.path.join(flags_obj.data_path, flags_obj.dataset)
     if flags_obj.dataset == 'amazon':
-        reviews_name = 'reviews_Movies_and_TV_5.json'
+        reviews_name = 'Movies_and_TV_5.json'
         meta_name = 'meta_Movies_and_TV.json'
+        # https://datarepo.eng.ucsd.edu/mcauley_group/data/amazon_v2/categoryFilesSmall/Movies_and_TV_5.json.gz
+        # https://datarepo.eng.ucsd.edu/mcauley_group/data/amazon_v2/categoryFilesSmall/meta_Movies_and_TV.json.gz
     elif flags_obj.dataset == 'yelp':
         reviews_name = 'yelp_academic_dataset_review.json'
         meta_name = 'yelp_academic_dataset_business.json'
